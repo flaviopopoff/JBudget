@@ -1,0 +1,13 @@
+{"type":"EARNING","user":"A","money":1000.0,"date":{"year":2020,"month":7,"day":1},"tag":"SALARIO"}
+{"type":"EARNING","user":"B","money":500.0,"date":{"year":2020,"month":7,"day":1},"tag":"INVESTIMENTI"}
+{"type":"EXPENSE","user":"C","money":-250.0,"date":{"year":2020,"month":7,"day":1},"tag":"SPESA"}
+{"type":"EXPENSE","user":"B","money":-40.0,"date":{"year":2020,"month":7,"day":2},"tag":"BENZINA"}
+{"type":"EXPENSE","user":"FLAVIO","money":-1999.0,"date":{"year":2020,"month":7,"day":8},"tag":"POO"}
+{"type":"EXPENSE","user":"POC","money":-101001.0,"date":{"year":2020,"month":7,"day":6},"tag":"POR"}
+{"type":"EXPENSE","user":"PO","money":-1001.0,"date":{"year":2020,"month":7,"day":6},"tag":""}
+{"type":"EARNING","user":"A","money":10.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
+{"type":"EXPENSE","user":"B","money":15.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
+{"type":"EARNING","user":"C","money":20.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
+{"type":"EARNING","user":"C","money":30.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
+{"type":"EXPENSE","user":"A","money":45.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
+{"type":"EARNING","user":"B","money":50.0,"date":{"year":2020,"month":7,"day":16},"tag":""}
