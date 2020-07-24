@@ -30,15 +30,19 @@ public class Ledger {
     }
 
 
+
     public void addTransaction(ITransaction transaction) {
 
         this.budgetManagement.insert(transaction);
     }
 
 
+
     public Function<ArrayList<ITransaction>, Pair<Boolean, Double>> trendBalance(LocalDate dateStart, LocalDate dateEnd) {
+
         return this.budgetManagement.trendBalance(dateStart, dateEnd);
     }
+
 
 
     public double balanceForTag(MovementType type, String tag) {
@@ -47,9 +51,12 @@ public class Ledger {
     }
 
 
+
     public double balanceForDates(MovementType type, LocalDate dateStart, LocalDate dateEnd) {
+
         return this.budgetManagement.balanceForDates(type, dateStart, dateEnd);
     }
+
 
 
     public HashMap<String, Double> balanceForEachTag(MovementType type) {
@@ -58,16 +65,19 @@ public class Ledger {
     }
 
 
+
     public void setList(ArrayList<ITransaction> list) {
 
         this.budgetManagement.setList(list);
     }
 
 
+
     public ArrayList<ITransaction> getTransaction() {
 
         return budgetManagement.getList();
     }
+
 
 
     /**
@@ -78,6 +88,7 @@ public class Ledger {
 
         this.fileManagement.write(transaction);
     }
+
 
 
     public void read() {
