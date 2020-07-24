@@ -14,10 +14,10 @@ import java.util.function.Function;
 public class Ledger {
 
     private final IFileManagement fileManagement = new FileManagement();
-    private final BudgetManagement budgetManagement;
+    private final IBudgetManagement budgetManagement;
 
 
-    public Ledger(BudgetManagement budgetManagement) {
+    public Ledger(IBudgetManagement budgetManagement) {
 
         this.budgetManagement = budgetManagement;
     }

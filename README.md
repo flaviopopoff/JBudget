@@ -1,6 +1,8 @@
 # JBudget
 
-JBudget ha lo scopo di tenere conto della gestione di un budget familiare, con la possibilità di:
+JBudget è un software realizzato seguendo il pattern MVC, che ha lo scopo di tenere conto della gestione di un budget familiare.
+
+
 
 * Aggiungere transazioni.
 * Vedere il bilancio dopo aver effettuato la transazione.
